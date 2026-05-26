@@ -1,0 +1,493 @@
+[
+    {
+        "id": 1,
+        "name": "Latte",
+        "desc": "Espresso con leche vaporizada y una ligera capa de espuma.",
+        "prices": [
+            {
+                "size": "Chico",
+                "price": 85
+            },
+            {
+                "size": "Grande",
+                "price": 90
+            }
+        ],
+        "picture": "https://www.brighteyedbaker.com/wp-content/uploads/2024/07/Dulce-de-Leche-Latte-Recipe.jpg",
+        "url": true,
+        "categories": [
+            "Caliente","Cold Brew"
+        ],
+        "tags": [
+            2
+        ],
+        "rec": false,
+        "caffeine": 3,
+        "sweet": 4,
+        "spicy": -1,
+        "ingredients": [
+            "Espresso", "Leche vaporizada","Espuma suave" 
+        ],
+        "flavours": [
+            "Vainilla",
+            "Caramelo",
+            "Avellana",
+            "Mocha"
+        ],
+        "notes": "Tambien pidelo caliente!"
+    },
+    {
+        "id": 2,
+        "name": "Americano",
+        "desc": "Espresso intenso combinado con agua caliente.",
+        "prices": [
+            {
+                "size": "Chico",
+                "price": 55
+            },
+            {
+                "size": "Grande",
+                "price": 65
+            }
+        ],
+        "picture": "https://www.somoselcafe.com.ar/img/novedades/47.jpg",
+        "url": true,
+        "categories": [
+            "Caliente"
+        ],
+        "tags": [
+            4
+        ],
+        "rec": false,
+        "caffeine": 5,
+        "sweet": -1,
+        "spicy": -1,
+        "ingredients": [
+            "Espresso",
+            "Agua caliente"
+        ],
+        "flavours": [],
+        "notes": "Disponible en versión descafeinada."
+    },
+    {
+        "id": 3,
+        "name": "Mocha",
+        "desc": "Espresso con chocolate y leche cremosa.",
+        "prices": [
+            {
+                "size": "Chico",
+                "price": 90
+            },
+            {
+                "size": "Grande",
+                "price": 100
+            }
+        ],
+        "picture": "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
+        "url": true,
+        "categories": [
+            "Caliente"
+        ],
+        "tags": [
+            2
+        ],
+        "rec": true,
+        "caffeine": 4,
+        "sweet": 5,
+        "spicy": -1,
+        "ingredients": [
+            "Espresso",
+            "Chocolate",
+            "Leche vaporizada"
+        ],
+        "flavours": [
+            "Chocolate oscuro",
+            "Chocolate blanco"
+        ],
+        "notes": "Perfecto para amantes del chocolate."
+    },
+    {
+        "id": 4,
+        "name": "Flat White",
+        "desc": "Espresso suave con leche microespumada.",
+        "prices": [
+            {
+                "size": "Grande",
+                "price": 85
+            }
+        ],
+        "picture": "https://images.immediate.co.uk/production/volatile/sites/54/2025/03/070320251741360715.png?quality=90&resize=708,643",
+        "url": true,
+        "categories": [
+            "Caliente"
+        ],
+        "tags": [],
+        "rec": false,
+        "caffeine": 4,
+        "sweet": 2,
+        "spicy": -1,
+        "ingredients": [
+            "Espresso",
+            "Leche microespumada"
+        ],
+        "flavours": [],
+        "notes": ""
+    },
+    {
+        "id": 5,
+        "name": "Chai Latte",
+        "desc": "Té especiado con leche cremosa.",
+        "prices": [
+            {
+                "size": "Chico",
+                "price": 85
+            },
+            {
+                "size": "Grande",
+                "price": 95
+            }
+        ],
+        "picture": "https://www.wollenhaupt.com/fileadmin/_processed_/c/1/csm_San_Chai_Latte-min_f69a13c0e9.jpg",
+        "url": true,
+        "categories": [
+            "Caliente",
+            "Te"
+        ],
+        "tags": [
+            5
+        ],
+        "rec": true,
+        "caffeine": 2,
+        "sweet": 4,
+        "spicy": 3,
+        "ingredients": [
+            "Té chai",
+            "Leche",
+            "Canela"
+        ],
+        "flavours": [
+            "Vainilla",
+            "Canela"
+        ],
+        "notes": "Disponible con leche vegetal."
+    },
+    {
+        "id": 6,
+        "name": "Cold Brew Clasico",
+        "desc": "Café infusionado en frío de sabor suave.",
+        "prices": [
+            {
+                "size": "Grande",
+                "price": 80
+            }
+        ],
+        "picture": "https://meijerspecialtypharmacy.com/wp-content/uploads/2019/08/Classic-Iced-Coffee.jpg",
+        "url": true,
+        "categories": [
+            "Cold Brew"
+        ],
+        "tags": [
+            2,
+            4
+        ],
+        "rec": true,
+        "caffeine": 5,
+        "sweet": -1,
+        "spicy": -1,
+        "ingredients": [
+            "Café cold brew",
+            "Hielo"
+        ],
+        "flavours": [],
+        "notes": "Preparado durante 18 horas."
+    },
+    {
+        "id": 7,
+        "name": "Vanilla Cold Brew",
+        "desc": "Cold brew suave con notas dulces de vainilla.",
+        "prices": [
+            {
+                "size": "Grande",
+                "price": 90
+            }
+        ],
+        "picture": "https://athome.starbucks.com/sites/default/files/styles/recipe_banner_xlarge/public/2024-05/VanillaSweetCreamColdBrew_RecipeHeader_848x539_%402x.jpg.webp?h=45cde313&itok=Ag9R5ipS",
+        "url": true,
+        "categories": [
+            "Cold Brew"
+        ],
+        "tags": [
+            1
+        ],
+        "rec": false,
+        "caffeine": 4,
+        "sweet": 4,
+        "spicy": -1,
+        "ingredients": [
+            "Cold brew",
+            "Vainilla",
+            "Hielo"
+        ],
+        "flavours": [
+            "Vainilla"
+        ],
+        "notes": ""
+    },
+    {
+        "id": 8,
+        "name": "Caramel Frappé",
+        "desc": "Bebida frappé cremosa con caramelo.",
+        "prices": [
+            {
+                "size": "Grande",
+                "price": 105
+            }
+        ],
+        "picture": "https://www.nestlegoodnes.com/ph/sites/default/files/styles/1_1_768px_width/public/srh_recipes/2fcc8e7e2f8619a9d86aaa83b4bc7dcf.jpg.webp?itok=HZckJ3WU",
+        "url": true,
+        "categories": [
+            "Frappes"
+        ],
+        "tags": [
+            2
+        ],
+        "rec": true,
+        "caffeine": 3,
+        "sweet": 5,
+        "spicy": -1,
+        "ingredients": [
+            "Espresso",
+            "Leche",
+            "Caramelo",
+            "Hielo"
+        ],
+        "flavours": [
+            "Caramelo"
+        ],
+        "notes": "Incluye crema batida."
+    },
+    {
+        "id": 9,
+        "name": "Mocha Frappé",
+        "desc": "Frappé helado con chocolate y espresso.",
+        "prices": [
+            {
+                "size": "Grande",
+                "price": 110
+            }
+        ],
+        "picture": "https://images.ctfassets.net/v601h1fyjgba/zdu62NyGGcS2jMp3lwOHv/e3692a5a0e2f8f8e64406e9b706f4262/15697_Keurig_CC_McCafe_Mocha_Frappe_4x3_Hi__1_.jpg",
+        "url": true,
+        "categories": [
+            "Frappes"
+        ],
+        "tags": [],
+        "rec": false,
+        "caffeine": 4,
+        "sweet": 5,
+        "spicy": -1,
+        "ingredients": [
+            "Espresso",
+            "Chocolate",
+            "Hielo",
+            "Leche"
+        ],
+        "flavours": [
+            "Chocolate"
+        ],
+        "notes": ""
+    },
+    {
+        "id": 10,
+        "name": "Matcha Frappé",
+        "desc": "Matcha frío mezclado con leche cremosa.",
+        "prices": [
+            {
+                "size": "Grande",
+                "price": 115
+            }
+        ],
+        "picture": "https://nioteas.es/cdn/shop/articles/20240923154428-matcha-20frappuccino-20recipe_17ea98d4-22b1-43c7-b1ea-59e8d21d2e97.jpg?v=1755848723",
+        "url": true,
+        "categories": [
+            "Frappes",
+            "Te"
+        ],
+        "tags": [
+            1
+        ],
+        "rec": false,
+        "caffeine": 2,
+        "sweet": 3,
+        "spicy": -1,
+        "ingredients": [
+            "Matcha",
+            "Leche",
+            "Hielo"
+        ],
+        "flavours": [
+            "Vainilla"
+        ],
+        "notes": "Disponible con leche de avena."
+    },
+    {
+        "id": 11,
+        "name": "Té Verde",
+        "desc": "Infusión ligera y refrescante.",
+        "prices": [
+            {
+                "size": "Chico",
+                "price": 50
+            }
+        ],
+        "picture": "https://www.vahdam.com/cdn/shop/articles/Green_Tea_Header_copy_0e698fae-5d3a-467e-b502-6e0800ea7eb2.jpg?v=1774525547&width=2048",
+        "url": true,
+        "categories": [
+            "Te",
+            "Vegano"
+        ],
+        "tags": [
+            3,
+            4
+        ],
+        "rec": false,
+        "caffeine": 2,
+        "sweet": -1,
+        "spicy": -1,
+        "ingredients": [
+            "Té verde"
+        ],
+        "flavours": [
+            "Menta",
+            "Limón"
+        ],
+        "notes": ""
+    },
+    {
+        "id": 12,
+        "name": "Cheesecake",
+        "desc": "Pay cremoso con base de galleta.",
+        "prices": [
+            {
+                "size": "Rebanada",
+                "price": 95
+            }
+        ],
+        "picture": "https://sallysbakingaddiction.com/wp-content/uploads/2022/10/classic-cheesecake-recipe.jpg",
+        "url": true,
+        "categories": [
+            "Postres"
+        ],
+        "tags": [
+            2
+        ],
+        "rec": true,
+        "caffeine": -1,
+        "sweet": 5,
+        "spicy": -1,
+        "ingredients": [
+            "Queso crema",
+            "Galleta",
+            "Azúcar"
+        ],
+        "flavours": [
+            "Frutos rojos",
+            "Oreo"
+        ],
+        "notes": ""
+    },
+    {
+        "id": 13,
+        "name": "Brownie Vegano",
+        "desc": "Brownie suave elaborado sin ingredientes animales.",
+        "prices": [
+            {
+                "size": "Individual",
+                "price": 70
+            }
+        ],
+        "picture": "https://www.texanerin.com/content/uploads/2021/04/paleo-vegan-brownies-full.jpg",
+        "url": true,
+        "categories": [
+            "Postres",
+            "Vegano"
+        ],
+        "tags": [
+            3
+        ],
+        "rec": false,
+        "caffeine": -1,
+        "sweet": 4,
+        "spicy": -1,
+        "ingredients": [
+            "Cacao",
+            "Harina",
+            "Leche vegetal"
+        ],
+        "flavours": [
+            "Chocolate"
+        ],
+        "notes": "Ideal con cold brew."
+    },
+    {
+        "id": 14,
+        "name": "Croissant",
+        "desc": "Pan hojaldrado recién horneado.",
+        "prices": [
+            {
+                "size": "Individual",
+                "price": 55
+            }
+        ],
+        "picture": "https://img-global.cpcdn.com/recipes/89a85ed6abb7858b/1200x630cq80/photo.jpg",
+        "url": true,
+        "categories": [
+            "Snacks"
+        ],
+        "tags": [],
+        "rec": false,
+        "caffeine": -1,
+        "sweet": 2,
+        "spicy": -1,
+        "ingredients": [
+            "Harina",
+            "Mantequilla"
+        ],
+        "flavours": [
+            "Chocolate",
+            "Almendra"
+        ],
+        "notes": ""
+    },
+    {
+        "id": 15,
+        "name": "Toast de Aguacate",
+        "desc": "Pan artesanal con aguacate fresco.",
+        "prices": [
+            {
+                "size": "Individual",
+                "price": 95
+            }
+        ],
+        "picture": "https://alegumeaday.com/wp-content/uploads/2024/03/Bean-avocado-toast-3.jpg",
+        "url": true,
+        "categories": [
+            "Snacks",
+            "Vegano"
+        ],
+        "tags": [
+            3
+        ],
+        "rec": true,
+        "caffeine": -1,
+        "sweet": -1,
+        "spicy": 1,
+        "ingredients": [
+            "Pan artesanal",
+            "Aguacate",
+            "Chile seco"
+        ],
+        "flavours": [],
+        "notes": "Agrega hummus por $15."
+    }
+]

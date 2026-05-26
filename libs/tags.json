@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Nuevo",
+        "color": "#48945d",
+        "icon": "neww",
+        "url": false
+    },
+    {
+        "id": 2,
+        "name": "Mas vendido",
+        "color": "#f59e0b",
+        "icon": "popular",
+        "url": false
+    },
+    {
+        "id": 3,
+        "name": "Vegano",
+        "color": "#22c55e",
+        "icon": "vegan",
+        "url": false
+    },
+    {
+        "id": 4,
+        "name": "Sin azucar",
+        "color": "#3b82f6",
+        "icon": "sugar",
+        "url": false
+    },
+    {
+        "id": 5,
+        "name": "Picante",
+        "color": "#ef4444",
+        "icon": "spicy",
+        "url": false
+    },
+    {
+        "id": 6,
+        "name": "Seasonal",
+        "color": "#ec4899",
+        "icon": "season",
+        "url": false
+    }
+]
