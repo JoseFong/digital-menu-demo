@@ -6,7 +6,7 @@ function TopMenuTwo() {
     }
 
   return (
-    <div className='bg-white w-full shadow-xl flex items-center justify-center fixed z-50 p-4 flex-row gap-2'>
+    <div className='bg-white w-full shadow-xl flex items-center text-sm justify-center fixed z-50 p-4 flex-row gap-2'>
         <button onClick={()=>goToSection("caliente")}>Caliente</button>
         <button onClick={()=>goToSection("cold-brew")}>Cold Brew</button>
         <button onClick={()=>goToSection("frappes")}>Frappes</button>
