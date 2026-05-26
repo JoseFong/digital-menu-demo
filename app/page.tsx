@@ -132,8 +132,8 @@ function HomePage() {
       </div>
       <div id="vegano" className='scroll-mt-14'/>
       <Products title={"Vegano"} products={products}/>
-      <div onClick={()=>setModalOpen(true)} className='hover:opacity-100 cursor-pointer fixed bottom-8 bg-white right-8 h-15 w-15 rounded-full opacity-80 flex items-center justify-center text-2xl font-bold'>?</div>
-      <div onClick={()=>setWifiOpen(true)} className='hover:opacity-100 cursor-pointer fixed bottom-24 p-4 bg-white right-8 h-15 w-15 rounded-full opacity-80 flex items-center justify-center text-2xl font-bold'>
+      <div onClick={()=>setModalOpen(true)} className='hover:opacity-100 cursor-pointer fixed bottom-8 bg-white right-4 h-15 w-15 rounded-full opacity-80 flex items-center justify-center text-2xl font-bold'>?</div>
+      <div onClick={()=>setWifiOpen(true)} className='hover:opacity-100 cursor-pointer fixed bottom-24 p-4 bg-white right-4 h-15 w-15 rounded-full opacity-80 flex items-center justify-center text-2xl font-bold'>
         <Image src={wifilogo} alt={'Wifi'}/>
       </div>
      <InfoModal open={modalOpen} setOpen={setModalOpen}/>
