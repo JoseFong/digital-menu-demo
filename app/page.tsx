@@ -21,6 +21,7 @@ import wifilogo from "@/assets/icons8-wi-fi-50.png"
 import TopMenuOne from '@/Components/TopMenuOne'
 import TopMenuTwo from '@/Components/TopMenuTwo'
 import Recomendations from '@/Components/Recomendations'
+import Handwritten from '@/Components/Handwritten'
 
 function HomePage() {
 
@@ -88,49 +89,49 @@ function HomePage() {
           <CategoryMenuCard src={veganpic} title={'Vegano'} reff='vegano'/>
         </div>
         <div style={{backgroundColor:"#875539"}} className='h-32 mt-8 relative flex items-center justify-center'>
-          <p className='max-w-1/2 text-center text-2xl italic text-white'>"Café para disfrutar sin prisa."</p>
+          <Handwritten text='"Café para disfrutar sin prisa."'/>
           <img className='absolute w-50 rotate-20 -left-18 -top-5' src="https://131850910.cdn6.editmysite.com/uploads/1/3/1/8/131850910/22VE6WDZDM56YXO2RFNVS4AQ.png"/>
           <img className='absolute w-85 -right-50 -top-10' src="https://static.vecteezy.com/system/resources/thumbnails/036/159/551/small/ai-generated-coffee-beans-isolated-on-transparent-background-free-png.png"/>
         </div>
         <div id="caliente" className='scroll-mt-14'/>
         <Products title={"Caliente"} products={products}/>
         <div style={{backgroundColor:"#875539"}} className='h-32 mt-8 relative flex items-center justify-center'>
-          <p className='max-w-1/2 text-center text-2xl italic text-white'>"Cada taza cuenta una historia."</p>
+          <Handwritten text='"Cada taza cuenta una historia."'/>
           <img className='absolute w-70 rotate-20 -left-24 -top-18' src="https://www.starbucksathome.com/es/sites/default/files/2024-06/Recipe%20Refresh_Iced%20Macchiato_1842x1542_CS.png"/>
           <img className='absolute w-48 -right-15 -top-15 -rotate-20' src="https://www.peets.com/cdn/shop/products/cold-brew-iced-coffee.png?v=1597269387"/>
         </div>
         <div id="cold-brew" className='scroll-mt-14'/>
         <Products title={"Cold Brew"} products={products}/>
         <div style={{backgroundColor:"#875539"}} className='h-32 mt-8 relative flex items-center justify-center'>
-          <p className='max-w-1/2 text-center text-2xl italic text-white'>"Hecho con calma, servido con cariño."</p>
+          <Handwritten text='"Hecho con calma, servido con cariño."'/>
           <img className='absolute w-50 rotate-20 -left-18 -top-8' src="https://www.nescafe.com/mx/sites/default/files/2023-07/Nes_Web3_Article_Header_Frappe_1448x1240.png"/>
           <img className='absolute w-48 -right-18 -top-10 -rotate-20' src="https://bk-latam-prod.s3.amazonaws.com/sites/burgerking.latam/files/BK_Web_FRAPPECAPUCCINO_500X540px.png"/>
         </div>
         <div id="frappes" className='scroll-mt-14'/>
         <Products title={"Frappes"} products={products}/>
         <div style={{backgroundColor:"#875539"}} className='h-32 mt-8 relative flex items-center justify-center'>
-          <p className='max-w-1/2 text-center text-2xl italic text-white'>"Un buen día empieza con café."</p>
+          <Handwritten text='"Un buen día empieza con café."'/>
           <img className='absolute w-62 rotate-20 -left-22 -top-15' src="https://static.vecteezy.com/system/resources/thumbnails/051/803/187/small/white-ceramic-cup-of-milk-tea-on-transparent-background-free-png.png"/>
           <img className='absolute w-44 -right-18 -top-8 -rotate-20' src="https://www.alivitpharm.com/wp-content/uploads/2023/02/green-tea.png"/>
         </div>
         <div id="te" className='scroll-mt-14'/>
         <Products title={"Te"} products={products}/>
         <div style={{backgroundColor:"#875539"}} className='h-32 mt-8 relative flex items-center justify-center'>
-          <p className='max-w-1/2 text-center text-2xl italic text-white'>"Tu momento favorito del día."</p>
+          <Handwritten text='"Tu momento favorito del día."'/>
           <img className='absolute w-44 rotate-20 -left-20 -top-10' src="https://drive.caffenio.com/wp-content/uploads/sites/2/2026/01/Sandwich-doble.webp"/>
           <img className='absolute w-52 -right-22 -top-8 rotate-40' src="https://www.bridor.com/medias/sys_master/images/h25/h66/8919908483102/515Wx515H_SourceHD_IMAGE-Packshot-VIENNOISERIE-ECLATTERROIR-Croissant_Courbe_EDT_35022-35022/515Wx515H-SourceHD-IMAGE-Packshot-VIENNOISERIE-ECLATTERROIR-Croissant-Courbe-EDT-35022-35022.png"/>
         </div>
         <div id="snacks" className='scroll-mt-14'/>
         <Products title={"Snacks"} products={products}/>
         <div style={{backgroundColor:"#875539"}} className='h-32 mt-8 relative flex items-center justify-center'>
-          <p className='max-w-1/2 text-center text-2xl italic text-white'>"Aromas que acompañan conversaciones."</p>
+          <Handwritten text='"Aromas que acompañan conversaciones."'/>
           <img className='absolute w-44 rotate-20 -left-15 -top-10' src="https://static.wixstatic.com/media/ee6e5b_8c891aef6d9c408aaab12ed60b128ee8~mv2.png/v1/fill/w_480,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ee6e5b_8c891aef6d9c408aaab12ed60b128ee8~mv2.png"/>
           <img className='absolute w-36 -right-10  rotate-40' src="https://crumbl.video/cdn-cgi/image/width=1920,format=auto,quality=80/https://crumbl.video/8819fb0a-0311-4ab7-a622-408fb49607d2_ClassicFudgeBrownie_FlyingAerial_TECH.png"/>
         </div>
         <div id="postres" className='scroll-mt-14'/>
         <Products title={"Postres"} products={products}/>
         <div style={{backgroundColor:"#875539"}} className='h-32 mt-8 relative flex items-center justify-center'>
-          <p className='max-w-1/2 text-center text-2xl italic text-white'>"Café, conexión y buenos momentos."</p>
+          <Handwritten text='"Café, conexión y buenos momentos."'/>
           <img className='absolute w-60 rotate-20 -left-20 -top-5' src="https://media.wawa.com/i/wawa/_WO_2402_DS_Crispy_Chicken_BLT_Salad-294-1?fmt=webp&qlt=75&strip=true&w=768"/>
           <img className='absolute w-60 -right-20  -rotate-38' src="https://media.wawa.com/i/wawa/_WO_2402_DS_Garlic_Parmesan_Avocado_Toast-332-1"/>
         </div>

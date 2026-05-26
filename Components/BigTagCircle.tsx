@@ -1,6 +1,4 @@
 import { Tag } from '@/libs/types'
-import React from 'react'
-
 import Image from "next/image"
 import vegan from "@/assets/vegan.png"
 import season from "@/assets/season.png"

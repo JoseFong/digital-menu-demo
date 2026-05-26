@@ -2,7 +2,6 @@
 import { Product } from '@/libs/types'
 import React, { useEffect, useState } from 'react'
 import ProductCard from './ProductCard'
-import TagGuide from './TagGuide'
 import ProductInfoModal from './ProductInfoModal'
 
 function Products({title,products}:{title:any,products:any}) {
